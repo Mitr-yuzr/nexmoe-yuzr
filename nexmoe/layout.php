@@ -4,9 +4,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
 	<title><?php e(config('site_name').' - '.$title);?></title>
-	<link rel="shortcut icon" href="https://pan.reincarnatey.net/view/themes/nexmoe/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/css/mdui.min.css">
-	<link rel="stylesheet" href="https://pan.reincarnatey.net/view/themes/nexmoe/css/styles.css">
+	<link rel="stylesheet" href="./css/styles.css">
 	<script src="https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/js/mdui.min.js"></script>
 	<style>
             body {
@@ -105,7 +105,7 @@
         </style>
 	<style>
 		body {
-			background-image: url(https://pan.reincarnatey.net/view/themes/nexmoe/bg.png) !important;
+			background-image: url(./bg.png) !important;
 			background-position: center bottom !important;
 			background-size: cover !important;
 			background-attachment: fixed !important;
@@ -116,12 +116,12 @@
 <body class="mdui-theme-primary-blue-grey mdui-theme-accent-blue">
 	<header class="nav">
 		<div class="navSize">
-			<a href="/"><img class="avatar" src="https://pan.reincarnatey.net/view/themes/nexmoe/picture/logo.png" /></a>
+			<a href="你的网址"><img class="avatar" src="./picture/logo.png" /></a>
 			<div class="navRight">
 				<ul class="navul">
-					<li class="navli"><a href="https://blog.reincarnatey.net/" target="_blank">我的博客</a></li>
-					<li class="navli"><a href="https://blog.reincarnatey.net/" target="_blank">还是博客</a></li>
-					<li class="navli"><a href="https://blog.reincarnatey.net/" target="_blank">然而我没有博客</a></li>
+					<li class="navli"><a href="/">首页</a></li>
+					<li class="navli"><a href="你的网址" target="_blank">博客</a></li>
+					<li class="navli"><a href="你的网址" target="_blank">主页</a></li>
 				</ul>
 			</div>
 		</div>
@@ -139,7 +139,7 @@
 		</div>
     	<?php view::section('content');?>
   	</div>
-	<script src="https://pan.reincarnatey.net/view/themes/nexmoe/js/urusai.js" async></script>
+	<script src="./js/urusai.js" async></script>
 	<script>
   	  	function delay(j) {   
 			var start=new Date().getTime();   

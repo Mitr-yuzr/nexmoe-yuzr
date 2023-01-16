@@ -6,10 +6,10 @@ document.addEventListener("keydown", function(event) {
     player.style = "display:none";
     player.volume = 1;
     document.body.appendChild(player);
-    player.src = "https://pan.reincarnatey.net/view/themes/nexmoe/urusai/urusai-1.ogg";
+    player.src = "../urusai/urusai-1.ogg";
     player.play();
     player.addEventListener("ended",function(){
-		player.src = "https://pan.reincarnatey.net/view/themes/nexmoe/urusai/urusai-2.ogg";
+		player.src = "../urusai/urusai-2.ogg";
 		player.play();
     })
 })
