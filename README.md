@@ -44,9 +44,9 @@
   
   - `layout.php`
     
-    - 第108行：可以替换背景图片
+    - [第108行](https://github.com/Mitr-yuzr/nexmoe-yuzr/blob/main/nexmoe/layout.php#L108)：可以替换背景图片
     
-    - 第119-124行：顶部的头像与导航栏
+    - [第119-124行](https://github.com/Mitr-yuzr/nexmoe-yuzr/blob/main/nexmoe/layout.php#L119-L124)：顶部的头像与导航栏
   
   - `picture/logo.png` 替换为你自己的头像
   
@@ -55,3 +55,11 @@
   - `favicon.ico` 替换为你自己的图标
   
   - `password.php` 可以修改密码界面的文字
+
+## 问题
+
+示例站点全部采用的绝对路径来访问js和css资源，在上传本仓库时全部修改为相对路径。
+
+如果在替换过后页面有问题，可以打开控制台看看是否是找不到资源。如果是的话，你可以将此处的链接改为绝对路径（如`https://pan.reincarnatey.net/view/themes/nexmoe/js/urusai.js`）
+
+若有其他问题，小问题可以自己修改源码，较大的问题欢迎提issue，也欢迎pr。
